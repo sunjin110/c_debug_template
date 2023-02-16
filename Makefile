@@ -1,5 +1,12 @@
-build:
-	gcc -g -Wall -omain main.c
+b:
+	cmake --build build
 
-debug_build:
-	gcc -ggdb -g3 -Wall -o ./debug/main main.c
+product_build:
+	gcc -Wall -O3 -omain main.c
+
+release_build:
+	cmake --build release_build 
+
+run:
+	@make b
+	./build/main
