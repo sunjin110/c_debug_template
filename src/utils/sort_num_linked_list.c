@@ -6,10 +6,13 @@ void sorted_num_linked_list_playground() {
     linked_list *first_ptr = malloc(sizeof(linked_list));
     first_ptr->num = 100;
     first_ptr->next_ptr = NULL;
+    // linked_list *first_ptr = NULL;
     printf("==== before first ptr is %p\n", first_ptr);
 
     // ここでptrを上書きしないと、引数内でpointerを変更しても、pointerのpositionがafterで戻ってしまう仕様になっている
     first_ptr = enter_for_sorted_linked_list(first_ptr, 90);
+    first_ptr = enter_for_sorted_linked_list(first_ptr, 123);
+    first_ptr = enter_for_sorted_linked_list(first_ptr, 1);
 
     printf("==== after first ptr is %p\n", first_ptr);
     for_each_for_sorted_linked_list(first_ptr);
@@ -60,9 +63,10 @@ linked_list* enter_for_sorted_linked_list(linked_list *first_ptr, int value) {
         new_ptr->next_ptr = tmp;
         first_ptr = new_ptr;
         first_ptr->next_ptr = tmp;
-        first_ptr->num = value;
-        printf("========= changed_first_ptr is %p\n", first_ptr);
-        print_linked_list_value(first_ptr);
+        // free(tmp);
+        // first_ptr->num = value;
+        // printf("========= changed_first_ptr is %p\n", first_ptr);
+        // print_linked_list_value(first_ptr);
         // first_ptr->next_ptr = tmp;
 
         return first_ptr;
@@ -97,8 +101,4 @@ linked_list* enter_for_sorted_linked_list(linked_list *first_ptr, int value) {
     new_ptr->next_ptr = after_ptr;
 
     return first_ptr;
-    // printf("before is ");
-    // print_linked_list_value(before_ptr);
-    // printf("new is ");
-    // print_linked_list_value(new_ptr);
 }
