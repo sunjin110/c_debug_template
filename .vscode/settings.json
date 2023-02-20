@@ -6,6 +6,7 @@
         "time.h": "c",
         "stdio.h": "c",
         "stdlib.h": "c",
-        "string.h": "c"
+        "string.h": "c",
+        "sort_num_linked_list.h": "c"
     }
 }

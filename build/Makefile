@@ -177,6 +177,30 @@ src/utils/linked_list.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/utils/linked_list.c.s
 .PHONY : src/utils/linked_list.c.s
 
+src/utils/sort_num_linked_list.o: src/utils/sort_num_linked_list.c.o
+.PHONY : src/utils/sort_num_linked_list.o
+
+# target to build an object file
+src/utils/sort_num_linked_list.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/utils/sort_num_linked_list.c.o
+.PHONY : src/utils/sort_num_linked_list.c.o
+
+src/utils/sort_num_linked_list.i: src/utils/sort_num_linked_list.c.i
+.PHONY : src/utils/sort_num_linked_list.i
+
+# target to preprocess a source file
+src/utils/sort_num_linked_list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/utils/sort_num_linked_list.c.i
+.PHONY : src/utils/sort_num_linked_list.c.i
+
+src/utils/sort_num_linked_list.s: src/utils/sort_num_linked_list.c.s
+.PHONY : src/utils/sort_num_linked_list.s
+
+# target to generate assembly for a file
+src/utils/sort_num_linked_list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/utils/sort_num_linked_list.c.s
+.PHONY : src/utils/sort_num_linked_list.c.s
+
 src/utils/str_pointer.o: src/utils/str_pointer.c.o
 .PHONY : src/utils/str_pointer.o
 
@@ -216,6 +240,9 @@ help:
 	@echo "... src/utils/linked_list.o"
 	@echo "... src/utils/linked_list.i"
 	@echo "... src/utils/linked_list.s"
+	@echo "... src/utils/sort_num_linked_list.o"
+	@echo "... src/utils/sort_num_linked_list.i"
+	@echo "... src/utils/sort_num_linked_list.s"
 	@echo "... src/utils/str_pointer.o"
 	@echo "... src/utils/str_pointer.i"
 	@echo "... src/utils/str_pointer.s"

@@ -18,3 +18,7 @@ cmake --build build
 $ cmake -S . -B release_build -DCMAKE_BUILD_TYPE=Release
 $ cmake --build release_build
 ```
+
+## 学んだこと
+https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13236332263  
+c言語には名前空間がないので、名前が被らないように死ぬほど頑張る必要がある
