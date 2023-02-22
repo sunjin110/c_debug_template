@@ -11,4 +11,7 @@ file(GLOB_RECURSE c_debug_src ${PROJECT_SOURCE_DIR} "src/*.h" "src/*.c")
 
 add_executable(main main.c ${c_debug_src})
 
+# use mold
+add_link_options(-fuse-ld=mold)
+
 target_compile_options(main PUBLIC -O2 -Wall)

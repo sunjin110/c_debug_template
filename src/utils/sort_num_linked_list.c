@@ -16,7 +16,7 @@ void sorted_num_linked_list_playground() {
 
     printf("==== after first ptr is %p\n", first_ptr);
     for_each_for_sorted_linked_list(first_ptr);
-
+    printf("========== end...!\n");
 }
 
 void for_each_for_sorted_linked_list(linked_list *list_first_ptr) {
