@@ -14,6 +14,6 @@ cmake_print_variables(c_debug_src)
 add_executable(main main.c ${c_debug_src})
 
 # use mold
-# add_link_options(-fuse-ld=mold)
+add_link_options(-fuse-ld=mold)
 
 target_compile_options(main PUBLIC -O2 -Wall)

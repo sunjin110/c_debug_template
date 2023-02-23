@@ -16,7 +16,16 @@ void init_matrix_v3(void);
 void init_matrix_v4(void);
 void init_matrix_v5(void);
 
+extern int counter;
+extern void inc_counter(void);
+
+// int flag = 2;
+
+extern int flag;
+
 int main() {
+
+    printf("flag is %d\n", flag);
 
     // str_pointer_playground();
 
@@ -38,6 +47,12 @@ int main() {
     // init_matrix_v1();
     // printf("======= v3 \n");
     // init_matrix_v3();
+
+    for (int i = 0; i < 10; i++) {
+        inc_counter();
+    }
+    printf("Counter is %d\n", counter);
+
     return 0;
 } 
 

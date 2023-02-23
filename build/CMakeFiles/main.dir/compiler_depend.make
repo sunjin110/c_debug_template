@@ -93,6 +93,8 @@ CMakeFiles/main.dir/main.c.o: /Users/yun_sunjin/develop/c_debug/main.c \
   /Users/yun_sunjin/develop/c_debug/src/utils/double_linked_list.h \
   /Users/yun_sunjin/develop/c_debug/src/utils/node.h
 
+CMakeFiles/main.dir/src/utils/count.c.o: /Users/yun_sunjin/develop/c_debug/src/utils/count.c
+
 CMakeFiles/main.dir/src/utils/double_linked_list.c.o: /Users/yun_sunjin/develop/c_debug/src/utils/double_linked_list.c \
   /Users/yun_sunjin/develop/c_debug/src/utils/double_linked_list.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/stdio.h \
@@ -556,6 +558,8 @@ CMakeFiles/main.dir/src/utils/str_pointer.c.o: /Users/yun_sunjin/develop/c_debug
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/mach/machine/_structs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/machine/_mcontext.h:
+
+/Users/yun_sunjin/develop/c_debug/src/utils/count.c:
 
 /Users/yun_sunjin/develop/c_debug/src/utils/linked_list.h:
 

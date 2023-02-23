@@ -153,6 +153,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.s
 .PHONY : main.c.s
 
+src/utils/count.o: src/utils/count.c.o
+.PHONY : src/utils/count.o
+
+# target to build an object file
+src/utils/count.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/utils/count.c.o
+.PHONY : src/utils/count.c.o
+
+src/utils/count.i: src/utils/count.c.i
+.PHONY : src/utils/count.i
+
+# target to preprocess a source file
+src/utils/count.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/utils/count.c.i
+.PHONY : src/utils/count.c.i
+
+src/utils/count.s: src/utils/count.c.s
+.PHONY : src/utils/count.s
+
+# target to generate assembly for a file
+src/utils/count.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/utils/count.c.s
+.PHONY : src/utils/count.c.s
+
 src/utils/double_linked_list.o: src/utils/double_linked_list.c.o
 .PHONY : src/utils/double_linked_list.o
 
@@ -285,6 +309,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/utils/count.o"
+	@echo "... src/utils/count.i"
+	@echo "... src/utils/count.s"
 	@echo "... src/utils/double_linked_list.o"
 	@echo "... src/utils/double_linked_list.i"
 	@echo "... src/utils/double_linked_list.s"

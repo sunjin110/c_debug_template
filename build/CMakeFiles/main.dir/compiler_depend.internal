@@ -94,6 +94,9 @@ CMakeFiles/main.dir/main.c.o
  /Users/yun_sunjin/develop/c_debug/src/utils/double_linked_list.h
  /Users/yun_sunjin/develop/c_debug/src/utils/node.h
 
+CMakeFiles/main.dir/src/utils/count.c.o
+ /Users/yun_sunjin/develop/c_debug/src/utils/count.c
+
 CMakeFiles/main.dir/src/utils/double_linked_list.c.o
  /Users/yun_sunjin/develop/c_debug/src/utils/double_linked_list.c
  /Users/yun_sunjin/develop/c_debug/src/utils/double_linked_list.h
