@@ -8,5 +8,5 @@ release_build:
 	cmake --build release_build 
 
 run:
-	@make b
+	make b
 	./build/main
