@@ -4,6 +4,7 @@
 #include "src/utils/str_pointer.h"
 #include "src/utils/linked_list.h"
 #include "src/utils/sort_num_linked_list.h"
+#include "src/utils/double_linked_list.h"
 
 const int X_SIZE = 60;
 const int Y_SIZE = 32;
@@ -16,11 +17,13 @@ void init_matrix_v5(void);
 
 int main() {
 
-    str_pointer_playground();
+    // str_pointer_playground();
 
-    linked_list_playground();
+    // linked_list_playground();
 
-    sorted_num_linked_list_playground();
+    // sorted_num_linked_list_playground();
+
+    double_linked_list_playground();
 
     // printf("======= v4\n");
     // init_matrix_v4();

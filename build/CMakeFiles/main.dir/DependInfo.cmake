@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/yun_sunjin/develop/c_debug/main.c" "CMakeFiles/main.dir/main.c.o" "gcc" "CMakeFiles/main.dir/main.c.o.d"
+  "/Users/yun_sunjin/develop/c_debug/src/utils/double_linked_list.c" "CMakeFiles/main.dir/src/utils/double_linked_list.c.o" "gcc" "CMakeFiles/main.dir/src/utils/double_linked_list.c.o.d"
   "/Users/yun_sunjin/develop/c_debug/src/utils/linked_list.c" "CMakeFiles/main.dir/src/utils/linked_list.c.o" "gcc" "CMakeFiles/main.dir/src/utils/linked_list.c.o.d"
   "/Users/yun_sunjin/develop/c_debug/src/utils/sort_num_linked_list.c" "CMakeFiles/main.dir/src/utils/sort_num_linked_list.c.o" "gcc" "CMakeFiles/main.dir/src/utils/sort_num_linked_list.c.o.d"
   "/Users/yun_sunjin/develop/c_debug/src/utils/str_pointer.c" "CMakeFiles/main.dir/src/utils/str_pointer.c.o" "gcc" "CMakeFiles/main.dir/src/utils/str_pointer.c.o.d"

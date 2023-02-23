@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main.dir/main.c.o"
   "CMakeFiles/main.dir/main.c.o.d"
+  "CMakeFiles/main.dir/src/utils/double_linked_list.c.o"
+  "CMakeFiles/main.dir/src/utils/double_linked_list.c.o.d"
   "CMakeFiles/main.dir/src/utils/linked_list.c.o"
   "CMakeFiles/main.dir/src/utils/linked_list.c.o.d"
   "CMakeFiles/main.dir/src/utils/sort_num_linked_list.c.o"
