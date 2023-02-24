@@ -88,5 +88,4 @@ CMakeFiles/main.dir/main.c.o: /Users/yun_sunjin/develop/c_debug/main.c \
   /Users/yun_sunjin/develop/c_debug/src/utils/linked_list.h \
   /Users/yun_sunjin/develop/c_debug/src/utils/sort_num_linked_list.h \
   /Users/yun_sunjin/develop/c_debug/src/utils/double_linked_list.h \
-  /Users/yun_sunjin/develop/c_debug/src/utils/node.h \
-  /Users/yun_sunjin/develop/c_debug/src/application/hist.h
+  /Users/yun_sunjin/develop/c_debug/src/utils/node.h
