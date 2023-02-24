@@ -153,6 +153,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.s
 .PHONY : main.c.s
 
+src/application/hist.o: src/application/hist.c.o
+.PHONY : src/application/hist.o
+
+# target to build an object file
+src/application/hist.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/application/hist.c.o
+.PHONY : src/application/hist.c.o
+
+src/application/hist.i: src/application/hist.c.i
+.PHONY : src/application/hist.i
+
+# target to preprocess a source file
+src/application/hist.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/application/hist.c.i
+.PHONY : src/application/hist.c.i
+
+src/application/hist.s: src/application/hist.c.s
+.PHONY : src/application/hist.s
+
+# target to generate assembly for a file
+src/application/hist.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/application/hist.c.s
+.PHONY : src/application/hist.c.s
+
 src/utils/count.o: src/utils/count.c.o
 .PHONY : src/utils/count.o
 
@@ -200,6 +224,30 @@ src/utils/double_linked_list.s: src/utils/double_linked_list.c.s
 src/utils/double_linked_list.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/utils/double_linked_list.c.s
 .PHONY : src/utils/double_linked_list.c.s
+
+src/utils/infinite_array.o: src/utils/infinite_array.c.o
+.PHONY : src/utils/infinite_array.o
+
+# target to build an object file
+src/utils/infinite_array.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/utils/infinite_array.c.o
+.PHONY : src/utils/infinite_array.c.o
+
+src/utils/infinite_array.i: src/utils/infinite_array.c.i
+.PHONY : src/utils/infinite_array.i
+
+# target to preprocess a source file
+src/utils/infinite_array.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/utils/infinite_array.c.i
+.PHONY : src/utils/infinite_array.c.i
+
+src/utils/infinite_array.s: src/utils/infinite_array.c.s
+.PHONY : src/utils/infinite_array.s
+
+# target to generate assembly for a file
+src/utils/infinite_array.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/utils/infinite_array.c.s
+.PHONY : src/utils/infinite_array.c.s
 
 src/utils/linked_list.o: src/utils/linked_list.c.o
 .PHONY : src/utils/linked_list.o
@@ -309,12 +357,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/application/hist.o"
+	@echo "... src/application/hist.i"
+	@echo "... src/application/hist.s"
 	@echo "... src/utils/count.o"
 	@echo "... src/utils/count.i"
 	@echo "... src/utils/count.s"
 	@echo "... src/utils/double_linked_list.o"
 	@echo "... src/utils/double_linked_list.i"
 	@echo "... src/utils/double_linked_list.s"
+	@echo "... src/utils/infinite_array.o"
+	@echo "... src/utils/infinite_array.i"
+	@echo "... src/utils/infinite_array.s"
 	@echo "... src/utils/linked_list.o"
 	@echo "... src/utils/linked_list.i"
 	@echo "... src/utils/linked_list.s"

@@ -83,10 +83,24 @@ CMakeFiles/main.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/main.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yun_sunjin/develop/c_debug/main.c -o CMakeFiles/main.dir/main.c.s
 
+CMakeFiles/main.dir/src/application/hist.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/application/hist.c.o: /Users/yun_sunjin/develop/c_debug/src/application/hist.c
+CMakeFiles/main.dir/src/application/hist.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yun_sunjin/develop/c_debug/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/src/application/hist.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/application/hist.c.o -MF CMakeFiles/main.dir/src/application/hist.c.o.d -o CMakeFiles/main.dir/src/application/hist.c.o -c /Users/yun_sunjin/develop/c_debug/src/application/hist.c
+
+CMakeFiles/main.dir/src/application/hist.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/src/application/hist.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yun_sunjin/develop/c_debug/src/application/hist.c > CMakeFiles/main.dir/src/application/hist.c.i
+
+CMakeFiles/main.dir/src/application/hist.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/src/application/hist.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yun_sunjin/develop/c_debug/src/application/hist.c -o CMakeFiles/main.dir/src/application/hist.c.s
+
 CMakeFiles/main.dir/src/utils/count.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/utils/count.c.o: /Users/yun_sunjin/develop/c_debug/src/utils/count.c
 CMakeFiles/main.dir/src/utils/count.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yun_sunjin/develop/c_debug/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/src/utils/count.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yun_sunjin/develop/c_debug/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/src/utils/count.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/utils/count.c.o -MF CMakeFiles/main.dir/src/utils/count.c.o.d -o CMakeFiles/main.dir/src/utils/count.c.o -c /Users/yun_sunjin/develop/c_debug/src/utils/count.c
 
 CMakeFiles/main.dir/src/utils/count.c.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/main.dir/src/utils/count.c.s: cmake_force
 CMakeFiles/main.dir/src/utils/double_linked_list.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/utils/double_linked_list.c.o: /Users/yun_sunjin/develop/c_debug/src/utils/double_linked_list.c
 CMakeFiles/main.dir/src/utils/double_linked_list.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yun_sunjin/develop/c_debug/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/src/utils/double_linked_list.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yun_sunjin/develop/c_debug/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/main.dir/src/utils/double_linked_list.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/utils/double_linked_list.c.o -MF CMakeFiles/main.dir/src/utils/double_linked_list.c.o.d -o CMakeFiles/main.dir/src/utils/double_linked_list.c.o -c /Users/yun_sunjin/develop/c_debug/src/utils/double_linked_list.c
 
 CMakeFiles/main.dir/src/utils/double_linked_list.c.i: cmake_force
@@ -111,10 +125,24 @@ CMakeFiles/main.dir/src/utils/double_linked_list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/src/utils/double_linked_list.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yun_sunjin/develop/c_debug/src/utils/double_linked_list.c -o CMakeFiles/main.dir/src/utils/double_linked_list.c.s
 
+CMakeFiles/main.dir/src/utils/infinite_array.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/utils/infinite_array.c.o: /Users/yun_sunjin/develop/c_debug/src/utils/infinite_array.c
+CMakeFiles/main.dir/src/utils/infinite_array.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yun_sunjin/develop/c_debug/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/main.dir/src/utils/infinite_array.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/utils/infinite_array.c.o -MF CMakeFiles/main.dir/src/utils/infinite_array.c.o.d -o CMakeFiles/main.dir/src/utils/infinite_array.c.o -c /Users/yun_sunjin/develop/c_debug/src/utils/infinite_array.c
+
+CMakeFiles/main.dir/src/utils/infinite_array.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/src/utils/infinite_array.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yun_sunjin/develop/c_debug/src/utils/infinite_array.c > CMakeFiles/main.dir/src/utils/infinite_array.c.i
+
+CMakeFiles/main.dir/src/utils/infinite_array.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/src/utils/infinite_array.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yun_sunjin/develop/c_debug/src/utils/infinite_array.c -o CMakeFiles/main.dir/src/utils/infinite_array.c.s
+
 CMakeFiles/main.dir/src/utils/linked_list.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/utils/linked_list.c.o: /Users/yun_sunjin/develop/c_debug/src/utils/linked_list.c
 CMakeFiles/main.dir/src/utils/linked_list.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yun_sunjin/develop/c_debug/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/main.dir/src/utils/linked_list.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yun_sunjin/develop/c_debug/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/main.dir/src/utils/linked_list.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/utils/linked_list.c.o -MF CMakeFiles/main.dir/src/utils/linked_list.c.o.d -o CMakeFiles/main.dir/src/utils/linked_list.c.o -c /Users/yun_sunjin/develop/c_debug/src/utils/linked_list.c
 
 CMakeFiles/main.dir/src/utils/linked_list.c.i: cmake_force
@@ -128,7 +156,7 @@ CMakeFiles/main.dir/src/utils/linked_list.c.s: cmake_force
 CMakeFiles/main.dir/src/utils/node.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/utils/node.c.o: /Users/yun_sunjin/develop/c_debug/src/utils/node.c
 CMakeFiles/main.dir/src/utils/node.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yun_sunjin/develop/c_debug/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/main.dir/src/utils/node.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yun_sunjin/develop/c_debug/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/main.dir/src/utils/node.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/utils/node.c.o -MF CMakeFiles/main.dir/src/utils/node.c.o.d -o CMakeFiles/main.dir/src/utils/node.c.o -c /Users/yun_sunjin/develop/c_debug/src/utils/node.c
 
 CMakeFiles/main.dir/src/utils/node.c.i: cmake_force
@@ -142,7 +170,7 @@ CMakeFiles/main.dir/src/utils/node.c.s: cmake_force
 CMakeFiles/main.dir/src/utils/sort_num_linked_list.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/utils/sort_num_linked_list.c.o: /Users/yun_sunjin/develop/c_debug/src/utils/sort_num_linked_list.c
 CMakeFiles/main.dir/src/utils/sort_num_linked_list.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yun_sunjin/develop/c_debug/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/main.dir/src/utils/sort_num_linked_list.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yun_sunjin/develop/c_debug/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/main.dir/src/utils/sort_num_linked_list.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/utils/sort_num_linked_list.c.o -MF CMakeFiles/main.dir/src/utils/sort_num_linked_list.c.o.d -o CMakeFiles/main.dir/src/utils/sort_num_linked_list.c.o -c /Users/yun_sunjin/develop/c_debug/src/utils/sort_num_linked_list.c
 
 CMakeFiles/main.dir/src/utils/sort_num_linked_list.c.i: cmake_force
@@ -156,7 +184,7 @@ CMakeFiles/main.dir/src/utils/sort_num_linked_list.c.s: cmake_force
 CMakeFiles/main.dir/src/utils/str_pointer.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/utils/str_pointer.c.o: /Users/yun_sunjin/develop/c_debug/src/utils/str_pointer.c
 CMakeFiles/main.dir/src/utils/str_pointer.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yun_sunjin/develop/c_debug/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/main.dir/src/utils/str_pointer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yun_sunjin/develop/c_debug/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/main.dir/src/utils/str_pointer.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/utils/str_pointer.c.o -MF CMakeFiles/main.dir/src/utils/str_pointer.c.o.d -o CMakeFiles/main.dir/src/utils/str_pointer.c.o -c /Users/yun_sunjin/develop/c_debug/src/utils/str_pointer.c
 
 CMakeFiles/main.dir/src/utils/str_pointer.c.i: cmake_force
@@ -170,8 +198,10 @@ CMakeFiles/main.dir/src/utils/str_pointer.c.s: cmake_force
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.c.o" \
+"CMakeFiles/main.dir/src/application/hist.c.o" \
 "CMakeFiles/main.dir/src/utils/count.c.o" \
 "CMakeFiles/main.dir/src/utils/double_linked_list.c.o" \
+"CMakeFiles/main.dir/src/utils/infinite_array.c.o" \
 "CMakeFiles/main.dir/src/utils/linked_list.c.o" \
 "CMakeFiles/main.dir/src/utils/node.c.o" \
 "CMakeFiles/main.dir/src/utils/sort_num_linked_list.c.o" \
@@ -181,15 +211,17 @@ main_OBJECTS = \
 main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/main.c.o
+main: CMakeFiles/main.dir/src/application/hist.c.o
 main: CMakeFiles/main.dir/src/utils/count.c.o
 main: CMakeFiles/main.dir/src/utils/double_linked_list.c.o
+main: CMakeFiles/main.dir/src/utils/infinite_array.c.o
 main: CMakeFiles/main.dir/src/utils/linked_list.c.o
 main: CMakeFiles/main.dir/src/utils/node.c.o
 main: CMakeFiles/main.dir/src/utils/sort_num_linked_list.c.o
 main: CMakeFiles/main.dir/src/utils/str_pointer.c.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yun_sunjin/develop/c_debug/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yun_sunjin/develop/c_debug/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

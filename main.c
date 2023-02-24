@@ -6,6 +6,7 @@
 #include "src/utils/sort_num_linked_list.h"
 #include "src/utils/double_linked_list.h"
 #include "src/utils/node.h"
+#include "src/application/hist.h"
 
 const int X_SIZE = 60;
 const int Y_SIZE = 32;
@@ -35,7 +36,9 @@ int main() {
 
     // double_linked_list_playground();
 
-    node_playground();
+    // node_playground();
+
+    hist_application_run();
 
     // printf("======= v4\n");
     // init_matrix_v4();

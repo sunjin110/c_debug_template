@@ -1,4 +1,6 @@
 b:
+	# ↓CMakeLists.txtが、新しいファイルを見つけることができるようにする
+	touch CMakeLists.txt
 	cmake --build build
 
 product_build:
@@ -10,3 +12,7 @@ release_build:
 run:
 	make b
 	./build/main
+
+clean:
+	cmake --build build --target clean
+	
