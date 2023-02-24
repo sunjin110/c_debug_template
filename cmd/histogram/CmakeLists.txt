@@ -1,0 +1,19 @@
+cmake_minimum_required(VERSION 3.25.2)
+
+include(CMakePrintHelpers)
+
+project(histogram)
+
+file(GLOB_RECURSE histogram_src ${PROJECT_SOURCE_DIR} "../../src/*.h", "../../src/*.c")
+
+cmake_print_variables(histogram_src)
+cmake_print_variables(PROJECT_SOURCE_DIR)
+
+# TODO
+
+add_executable(histogram main.c ${histogram_src})
+
+# use mold
+add_link_options(-fuse-ld=mold)
+
+target_compile_options(histogram PUBLIC -O2 -Wall)
